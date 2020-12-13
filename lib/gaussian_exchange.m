@@ -8,5 +8,4 @@ function [matrix] = gaussian_exchange(matrix, i, j)
         end
     end
     matrix(j, :) = matrix(j, :) ./ col(j);
-    disp(matrix)
 end
